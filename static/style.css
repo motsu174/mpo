@@ -1,0 +1,41 @@
+h1{
+    padding:30px
+}
+h2{
+    color:red;
+}
+.contents{
+    background-color:aliceblue;
+    height: 100%;
+    width: 100%; 
+}
+.des-opt{
+    size:5em;
+    padding-bottom:20px;
+}
+.person{
+    display: inline-block;      /* インラインブロック要素にする */
+    background-color: #ccc;    /* 背景色指定 */
+    padding:10px;             /* 余白指定 */
+}
+input{
+    margin: auto;
+}
+.center{
+    text-align : center ;
+}
+.destinations{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.destination{
+    display: inline-block;
+    background-color: beige;
+    padding:  10px;  
+}
+.btn{
+    padding:10px;
+}
+.des-opt{
+    padding:50px;
+}

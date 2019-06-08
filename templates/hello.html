@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <title>MPO</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div class="contents">
+            <div class="center">
+                <h1>最適な集合場所：{{ destination_opt }}</h1>
+                {% for key, value in P_vars.items() %}
+                    <p>{{ key }} : {{ value }}</p>
+                {% endfor %}
+                <div class="btn">
+                <form action="/">
+                    <input type=submit value='もう一度最適化'>
+                </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
