@@ -39,7 +39,7 @@ Keras-Applications==1.0.4
 Keras-Preprocessing==1.0.2
 kiwisolver==1.0.1
 knnimpute==0.1.0
-lxml==4.2.5
+lxml==4.6.3
 macholib==1.11
 Markdown==2.6.11
 MarkupSafe==1.0
