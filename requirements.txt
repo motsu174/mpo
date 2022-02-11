@@ -57,7 +57,7 @@ pandas==0.23.4
 pefile==2018.8.8
 Pillow==5.2.0
 plotly==3.1.1
-protobuf==3.6.0
+protobuf==3.15.0
 pydicom==1.1.0
 PyInstaller==3.4
 pyparsing==2.2.0
